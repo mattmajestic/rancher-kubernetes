@@ -17,3 +17,14 @@ The compose file defines a single volume: `rancher_home`. This volume is used by
 ## 🏃‍♂️ Running the Services 🏃‍♂️
 
 ` docker-compose up`
+
+Run 
+
+## Kubernetes Shell Commands
+
+To add a Helm repository, use the `helm repo add` command. For example, to add the Bitnami repository:
+
+```bash
+helm repo add bitnami https://charts.bitnami.com/bitnami
+helm install my-nginx bitnami/nginx
+```
