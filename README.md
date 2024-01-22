@@ -18,6 +18,10 @@ The compose file defines a single volume: `rancher_home`. This volume is used by
 
 ` docker-compose up`
 
+Grab the helm command from port 80
+
+`docker ps` the `docker exec -it <container_id> bash` then paste what you copied for helm installation.
+
 Run 
 
 ## Kubernetes Shell Commands
